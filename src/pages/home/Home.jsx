@@ -16,7 +16,9 @@ const HomePage = () => {
       </div>
       <div className="page-control">
         <button>
-          <Link to="quiz">LET’S START!</Link>
+          <Link to="quiz" className="link-start">
+            LET’S START!
+          </Link>
         </button>
       </div>
     </div>
