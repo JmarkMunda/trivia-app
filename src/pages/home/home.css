@@ -17,10 +17,48 @@
 
 .page-home img {
   height: 60px;
+  margin: 2rem;
+}
+
+.page-title h2, .page-body p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.page-body p:last-child {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 2rem;
+  width: 80%;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
 }
 
 .page-control {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+}
+
+.page-control button {
+  padding: 0.2rem 0;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid var(--primary-color);
+  transition: all 0.2s ease;
+}
+
+.page-control button:hover {
+  transform: scale(1.2);
+}
+
+.link-start {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: none;
 }
