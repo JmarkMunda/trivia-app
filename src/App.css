@@ -13,6 +13,7 @@
 
 .App {
   background: url(./assets/bg.png) no-repeat center;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;

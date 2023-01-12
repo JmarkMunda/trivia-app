@@ -1,0 +1,9 @@
+.main-container {
+  width: 600px;
+  max-width: 80%;
+  margin: 0 auto;
+  min-height: 70vh;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+}
